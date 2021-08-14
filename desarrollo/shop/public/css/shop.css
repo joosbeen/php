@@ -1,0 +1,46 @@
+.input-error {
+	box-shadow: 0 0 3px #CC0000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Oswald"
+}
+
+body {
+	font-family: "Open Sans"
+}
+
+.p-header{
+	padding: 48px;
+}
+.p-body{
+	padding: 15px;
+}
+
+@media (max-width:600px){
+	.p-header{
+		padding: 15px;
+	}
+	.p-body{
+		padding: 5px;
+	}
+
+}
+@media (min-width:601px){
+	.p-header{
+		padding: 28px;
+	}
+	.p-body{
+		padding: 10px;
+	}
+
+}
+@media (min-width:993px){
+	.p-header{
+		padding: 48px;
+	}
+	.p-body{
+		padding: 15px;
+	}
+
+}
